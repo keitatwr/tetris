@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25aea29f-8f1e-4632-8b3a-e2604d325d7f" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tetoris.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/app_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/piece_module/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/piece_module/piece.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/piece_module/piece_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/piece_module/piece_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/window/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/window/surface.py" afterDir="false" />
-    </list>
+    <list default="true" id="25aea29f-8f1e-4632-8b3a-e2604d325d7f" name="変更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701136733857</updated>
-      <workItem from="1701136735554" duration="34236000" />
+      <workItem from="1701136735554" duration="34667000" />
     </task>
     <servers />
   </component>
