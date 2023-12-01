@@ -28,6 +28,8 @@ class AppMain:
         self.__clock = pygame.time.Clock()
         self.__fall_time = 0
         self.__fall_speed = 0.27
+        self.__point = 0
+        pygame.font.init()
 
     def main(self):
         # 画面の描画
@@ -127,8 +129,13 @@ class AppMain:
                     self.__locked_pos[p] = current_piece.color
                 current_piece = next_piece
                 next_piece = PieceFactory.get_shape()
+                point = self.__surface.clear_rows(grid, self.__locked_pos)
+                self.__point += point
 
             self.__surface.draw_window(grid)
+            self.__surface.draw_next_shape(next_piece)
+            self.__surface.draw_score(self.__point)
+            pygame.display.update()
 
 
 if __name__ == '__main__':
