@@ -132,6 +132,8 @@ class AppMain:
                 point = self.__surface.clear_rows(grid, self.__locked_pos)
                 self.__point += point
 
+            if self.__surface.is_over_top(self.__locked_pos):
+                self.__is_finish = True
             self.__surface.draw_window(grid)
             self.__surface.draw_next_shape(next_piece)
             self.__surface.draw_score(self.__point)

@@ -114,6 +114,13 @@ class Surface:
                     locked_pos[new_key] = locked_pos.pop(key)
         return inc
 
+    @staticmethod
+    def is_over_top(locked_pos):
+        for pos in locked_pos:
+            if pos[1] < 1:
+                return True
+        return False
+
     def draw_window(self, grid: list) -> None:
         """画面を描画する
 
